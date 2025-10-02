@@ -4,6 +4,14 @@ public class Player {
     private String nickname; 
     private int level; 
     private int points;
+
+    
+    public Player(String nickname, int level, int points) {
+        this.nickname = nickname;
+        this.level = level;
+        this.points = points;
+    }
+
     public String getNickname() {
         return nickname;
     }
